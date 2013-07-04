@@ -20,7 +20,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.kiji.platforms</groupId>
-  <artifactId>kiji-cdh4-platform</artifactId>
+  <artifactId>kiji-cdh4-2-platform</artifactId>
   <version>1.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -31,13 +31,13 @@
     <relativePath>..</relativePath>
   </parent>
 
-  <name>kiji-cdh4-platform</name>
-  <description>Dependency on the latest update of CDH4</description>
+  <name>kiji-cdh4-3-platform</name>
+  <description>Dependency on the latest point release of CDH4.3</description>
   <inceptionYear>2012</inceptionYear>
 
   <properties>
-      <hadoop.version>2.0.0-mr1-cdh4.3.1</hadoop.version>
-      <hbase.version>0.94.6-cdh4.3.1</hbase.version>
+    <hadoop.version>2.0.0-mr1-cdh4.3.1</hadoop.version>
+    <hbase.version>0.94.6-cdh4.3.1</hbase.version>
   </properties>
 
   <build>
